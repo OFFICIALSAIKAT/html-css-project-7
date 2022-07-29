@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ margin: 0px 20px;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+  
+    
+}
+.nav-item{
+    align-items: center;
+    padding: 0px 40px;
+    
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    margin-top: 150px;
+}
+.left-section h3{
+    font-size: 60px;
+}
+.left-section h1{
+    font-size: 40px;
+}
+.sub-headlines{
+    padding: 15px 0px;
+}
+.sub-headline{
+    font-size: 20px;
+    padding: 20px 40px;
+
+}
+.sub-headline img{
+    background-color: crimson;
+    border-radius: 30px;
+    height: 15px;
+    
+}
+.text{
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-right: 150px;
+}
+.action-btns{
+    padding: 15px 0px;
+}
+.action-btn{
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.discount{
+    position: absolute;
+    right: 490px;
+    bottom: 120px;
+}
+.discount-content{
+    position: absolute;
+    right: 540px;
+    bottom: 175px;
+    color: white;
+}
+.add{
+   margin-left: 280px;
+   height: 40px;
+   width: 110px;
+   color: white;
+   background-color: crimson;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+
+ 
+}
+.headphone{
+    height: 580px;
+}
+
