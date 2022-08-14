@@ -8,12 +8,14 @@ body{
 }
 nav{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 35px;
     
 }
 .nav-items{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-left: 160px;
@@ -26,10 +28,14 @@ nav{
     
 }
 .intro-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px,1fr));
+    grid-gap: 1rem;
+    width: 90%;
+    margin: auto;
 }
 .left-section{
-    margin-top: 150px;
+    padding-top: 100px;
 }
 .left-section h3{
     font-size: 60px;
@@ -70,19 +76,19 @@ nav{
 }
 .discount{
     position: absolute;
-    right: 490px;
-    bottom: 120px;
+    right: 650px;
+    bottom: 150px;
 }
 .discount-content{
     position: absolute;
-    right: 540px;
-    bottom: 175px;
+    right: 695px;
+    bottom: 210px;
     color: white;
 }
 .add{
-   margin-left: 280px;
+   margin:0px 160px;
    height: 40px;
-   width: 110px;
+   width: 30%;
    color: white;
    background-color: crimson;
    border: none;
@@ -92,6 +98,17 @@ nav{
  
 }
 .headphone{
-    height: 580px;
+    height: 550px;
 }
 
+@media screen and (max-width: 1300px){
+    .discount{
+       display: none;
+    }
+    .discount-content{
+        display: none;
+    }
+    .headphone{
+        height: 600px;
+    }
+}
