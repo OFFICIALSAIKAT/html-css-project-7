@@ -76,13 +76,13 @@ nav{
 }
 .discount{
     position: absolute;
-    right: 650px;
-    bottom: 150px;
+    right: 720px;
+    bottom: 250px;
 }
 .discount-content{
     position: absolute;
-    right: 695px;
-    bottom: 210px;
+    right: 760px;
+    bottom: 310px;
     color: white;
 }
 .add{
